@@ -1,4 +1,3 @@
-[![arXiv](https://img.shields.io/badge/arXiv-2112.01922-b31b1b.svg)](https://arxiv.org/abs/2112.01922)
 # MetaQA: Combining Expert Agents for Multi-Skill Question Answering
 
 In this work, we propose to combine expert agents with a novel, flexible, and training-efficient architecture that considers questions, answer predictions, and answer-prediction confidence scores to select the best answer among a list of answer candidates. Through quantitative and qualitative experiments we show that our model i) creates a collaboration between agents that outperforms previous multi-agent and multi-dataset approaches in both in-domain and out-of-domain scenarios, ii) is extremely data-efficient to train, and iii) can be adapted to any QA format.
@@ -56,28 +55,7 @@ python MetaQA.py --do_test \
 ```
 
 
-## Citation
-If you find our work relevant, please use the following citation:
-```
-@article{Puerto2021MetaQACE,
-  title={MetaQA: Combining Expert Agents for Multi-Skill Question Answering},
-  author={Haritz Puerto and Gozde Gul cSahin and Iryna Gurevych},
-  journal={ArXiv},
-  year={2021},
-  volume={abs/2112.01922}
-}
-```
 
-## Contact
 
-Haritz Puerto
-
-https://haritzpuerto.github.io
-
-https://www.ukp.tu-darmstadt.de/
-
-https://www.tu-darmstadt.de/
-
-Don't hesitate to send us an e-mail or report an issue, if something is broken (and it shouldn't be) or if you have further questions.
 
 This repository contains experimental software and is published for the sole purpose of giving additional background details on the respective publication.
