@@ -3,20 +3,20 @@
 # Download Pretrained MetaQA
 mkdir MetaQA_models
 cd MetaQA_models
-wget https://public.ukp.informatik.tu-darmstadt.de/metaqa/MetaQA.zip
+wget XXXX
 unzip MetaQA.zip
 cd ..
 
 # Download QA Datasets
 mkdir data
 cd data
-wget https://public.ukp.informatik.tu-darmstadt.de/metaqa/data.zip
+wget XXXX
 unzip data.zip
 cd ..
 
 # Download Agent's Predictions
 mkdir qa_agents
 cd qa_agents
-wget https://public.ukp.informatik.tu-darmstadt.de/metaqa/qa_agents.zip
+wget XXXX
 unzip qa_agents.zip
 cd ..
