@@ -16,9 +16,9 @@ pip install -r requirements.txt
 
 We have made a script `setup.sh` that downloads all the necessary data to run this repository. This script creates three foldres: `data`, `MetaQA_models`, and `qa_agents`, downloads and unzips the following files:
 
-- Model checkpoint: https://public.ukp.informatik.tu-darmstadt.de/metaqa/MetaQA.zip
-- Agent predictions: https://public.ukp.informatik.tu-darmstadt.de/metaqa/qa_agents.zip
-- QA Datasets: https://public.ukp.informatik.tu-darmstadt.de/metaqa/data.zip
+- Model checkpoint: https://anonymshare.com/01eO/metaqa.zip
+- Agent predictions: https://anonymshare.com/DVzd/qa-agents.zip
+- QA Datasets: https://anonymshare.com/zAyO/data.zip
 
 ```
 sh setup.sh
