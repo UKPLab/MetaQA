@@ -16,9 +16,9 @@ pip install -r requirements.txt
 
 We have made a script `setup.sh` that downloads all the necessary data to run this repository. This script creates three foldres: `data`, `MetaQA_models`, and `qa_agents`, downloads and unzips the following files:
 
-- Model checkpoint: https://anonymshare.com/01eO/metaqa.zip
-- Agent predictions: https://anonymshare.com/DVzd/qa-agents.zip
-- QA Datasets: https://anonymshare.com/zAyO/data.zip
+- Model checkpoint: https://anonymshare.com/P4kl/metaqa.zip
+- Agent predictions: https://anonymshare.com/y8eg/qa-agents.zip
+- QA Datasets: https://anonymshare.com/7jon/data.zip
 
 ```
 sh setup.sh
@@ -40,7 +40,7 @@ You also need to configure the data paths in config.yaml
 ## Training
 
 ```
-python MetaQA.py --do_train --do_test \
+python MetaQA.py --do_train \
                  --model_name my_metaqa \
                  --training_sample_size 10000 \
                  --config config.yaml \
